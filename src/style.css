@@ -15,6 +15,11 @@ ol {
 }
 body {
   background-color: #eee;
+  background: no-repeat  url("../images/sunset.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vm;
+  height: 100vh;
 }
 img {
   max-width: 100%;
@@ -44,6 +49,7 @@ a {
     margin-right: auto;
   }
 }
+
 .globalHeader {
   margin: 20px;
 }
